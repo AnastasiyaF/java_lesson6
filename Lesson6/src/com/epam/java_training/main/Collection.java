@@ -4,7 +4,7 @@ import com.epam.java_training.object.Composition;
 
 public class Collection {
 	
-	private int count_compositions;
+	private int count_compositions;// куди исчез java code convention? countCompositions
 	private Composition[] collection_list;
 	private String type_collection;
 	
@@ -50,7 +50,8 @@ public class Collection {
 		this.count_compositions = this.count_compositions + 1;
 		this.collection_list = new_composition;
 	}
-	
+	// мы не смешиваем уже ввод-вывод и логику в одном классе
+	// а делаем их независимыми друг от друга
 	public void deleteRecord(int position){
 		int i_new = 0;
 		
@@ -115,7 +116,7 @@ public class Collection {
 			System.out.println("The collection is empty.");
 		}
 		else{
-			System.out.println(this.type_collection + " ����� ��������� ������������:");
+			System.out.println(this.type_collection + " èìååò ñëåäóþùèå ïðîèçâåäåíèÿ:");
 		}
 		
 		for (int i = 0; i < this.count_compositions; i++){
