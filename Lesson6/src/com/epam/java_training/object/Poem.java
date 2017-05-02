@@ -54,7 +54,9 @@ public class Poem extends Composition{
 	}
 	
 	@Override
+	// помним, toString не служит для решения наших задач вывода чего-то на консоль
+	// русский в этом методе как-то странно выглядит)
 	public String toString() {
-		return "�����: " + super.toString() + ", meter = " + meter;
+		return "Ñòèõè: " + super.toString() + ", meter = " + meter;
 	}
 }
