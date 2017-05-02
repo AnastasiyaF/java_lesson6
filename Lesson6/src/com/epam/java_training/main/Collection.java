@@ -50,7 +50,8 @@ public class Collection {
 		this.count_compositions = this.count_compositions + 1;
 		this.collection_list = new_composition;
 	}
-	
+	// мы не смешиваем уже ввод-вывод и логику в одном классе
+	// а делаем их независимыми друг от друга
 	public void deleteRecord(int position){
 		int i_new = 0;
 		
