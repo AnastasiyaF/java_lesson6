@@ -4,7 +4,7 @@ import com.epam.java_training.object.Composition;
 
 public class Collection {
 	
-	private int count_compositions;
+	private int count_compositions;// РєСѓРґРё РёСЃС‡РµР· java code convention? countCompositions
 	private Composition[] collection_list;
 	private String type_collection;
 	
@@ -115,7 +115,7 @@ public class Collection {
 			System.out.println("The collection is empty.");
 		}
 		else{
-			System.out.println(this.type_collection + " имеет следующие произведения:");
+			System.out.println(this.type_collection + " ГЁГ¬ГҐГҐГІ Г±Г«ГҐГ¤ГіГѕГ№ГЁГҐ ГЇГ°Г®ГЁГ§ГўГҐГ¤ГҐГ­ГЁГї:");
 		}
 		
 		for (int i = 0; i < this.count_compositions; i++){
